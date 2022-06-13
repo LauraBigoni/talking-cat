@@ -101,15 +101,15 @@ label {
   display: block;
 }
 
-/* * Paperelle * */
-.animated-duck {
+/* * Gattini * */
+.animated-cat {
   display: none;
 }
 
-.talking .animated-duck {
+.talking .animated-cat {
   display: block;
 }
 
-.talking .static-duck {
+.talking .static-cat {
   display: none;
 }
