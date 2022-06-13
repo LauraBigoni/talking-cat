@@ -1,3 +1,106 @@
+/* * CSS reset * */
 * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* * Generiche * */
+html {
   font-family: 'Lato', sans-serif;
+  height: 100%;
+  background: linear-gradient(#3535ec, #b62897);
+  background-attachment: fixed;
+  color: white;
+}
+
+/* * Margini * */
+.mb-2 {
+  margin-bottom: 12px;
+}
+
+.mt-5 {
+  margin-top: 32px;
+}
+
+.mb-5 {
+  margin-bottom: 32px;
+}
+
+/* * Container * */
+.container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 1.2rem;
+}
+
+/* * Logo * */
+header img {
+  width: 56px;
+}
+
+/* * TextArea * */
+textarea {
+  width: 100%;
+  height: 120px;
+  border-radius: 16px;
+  padding: 24px;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  letter-spacing: .1rem;
+  resize: none;
+  outline: none;
+  border: none;
+
+}
+
+/* * Controls * */
+.controls {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* * Play Button * */
+button {
+  width: 62px;
+  height: 56px;
+  border: none;
+  border-radius: 10px;
+  background-color: #f81669;
+}
+
+button img {
+  vertical-align: middle;
+}
+
+/* * Pitch Controls * */
+.pitch-controls {
+  width: 70%;
+}
+
+input {
+  width: 100%;
+  accent-color: #fff;
+}
+
+label {
+  display: block;
+}
+
+/* * Paperelle * */
+.animated-duck {
+  display: none;
+}
+
+.talking .animated-duck {
+  display: block;
+}
+
+.talking .static-duck {
+  display: none;
 }
