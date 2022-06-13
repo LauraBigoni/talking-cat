@@ -78,6 +78,15 @@ button img {
   vertical-align: middle;
 }
 
+button:disabled {
+  opacity: 0.6;
+  background-color: #bebebe;
+}
+
+button:active {
+  transform: scale(.8);
+}
+
 /* * Pitch Controls * */
 .pitch-controls {
   width: 70%;
